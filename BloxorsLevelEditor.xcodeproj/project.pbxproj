@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		502CC4A21448BB1600E29463 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502CC4A11448BB1600E29463 /* Cocoa.framework */; };
+		502CC4A41448BB1600E29463 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502CC4A31448BB1600E29463 /* MacRuby.framework */; };
+		502CC4AB1448BB1600E29463 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 502CC4A91448BB1600E29463 /* InfoPlist.strings */; };
+		502CC4AD1448BB1600E29463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 502CC4AC1448BB1600E29463 /* main.m */; };
+		502CC4B21448BB1600E29463 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502CC4B01448BB1600E29463 /* MainMenu.xib */; };
+		502CC4B51448BB1600E29463 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 502CC4B41448BB1600E29463 /* rb_main.rb */; };
+		502CC4B71448BB1600E29463 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 502CC4B61448BB1600E29463 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		502CC49D1448BB1600E29463 /* BloxorsLevelEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloxorsLevelEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		502CC4A11448BB1600E29463 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		502CC4A31448BB1600E29463 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		502CC4A81448BB1600E29463 /* BloxorsLevelEditor-Info.plist */ = {isa = PBXFileReference; path = "BloxorsLevelEditor-Info.plist"; sourceTree = "<group>"; };
+		502CC4AA1448BB1600E29463 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		502CC4AC1448BB1600E29463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		502CC4AE1448BB1600E29463 /* BloxorsLevelEditor-Prefix.pch */ = {isa = PBXFileReference; path = "BloxorsLevelEditor-Prefix.pch"; sourceTree = "<group>"; };
+		502CC4B11448BB1600E29463 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		502CC4B41448BB1600E29463 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		502CC4B61448BB1600E29463 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		502CC49A1448BB1600E29463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502CC4A21448BB1600E29463 /* Cocoa.framework in Frameworks */,
+				502CC4A41448BB1600E29463 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		502CC4921448BB1600E29463 = {
+			isa = PBXGroup;
+			children = (
+				502CC4A61448BB1600E29463 /* BloxorsLevelEditor */,
+				502CC4A01448BB1600E29463 /* Frameworks */,
+				502CC49E1448BB1600E29463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		502CC49E1448BB1600E29463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				502CC49D1448BB1600E29463 /* BloxorsLevelEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		502CC4A01448BB1600E29463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				502CC4A11448BB1600E29463 /* Cocoa.framework */,
+				502CC4A31448BB1600E29463 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		502CC4A61448BB1600E29463 /* BloxorsLevelEditor */ = {
+			isa = PBXGroup;
+			children = (
+				502CC4B61448BB1600E29463 /* AppDelegate.rb */,
+				502CC4AF1448BB1600E29463 /* Resources */,
+				502CC4B31448BB1600E29463 /* Other Sources */,
+				502CC4A71448BB1600E29463 /* Supporting Files */,
+			);
+			path = BloxorsLevelEditor;
+			sourceTree = "<group>";
+		};
+		502CC4A71448BB1600E29463 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				502CC4A81448BB1600E29463 /* BloxorsLevelEditor-Info.plist */,
+				502CC4A91448BB1600E29463 /* InfoPlist.strings */,
+				502CC4AC1448BB1600E29463 /* main.m */,
+				502CC4AE1448BB1600E29463 /* BloxorsLevelEditor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		502CC4AF1448BB1600E29463 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				502CC4B01448BB1600E29463 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		502CC4B31448BB1600E29463 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				502CC4B41448BB1600E29463 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		502CC4A51448BB1600E29463 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 502CC4BD1448BB1600E29463 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		502CC49C1448BB1600E29463 /* BloxorsLevelEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502CC4BA1448BB1600E29463 /* Build configuration list for PBXNativeTarget "BloxorsLevelEditor" */;
+			buildPhases = (
+				502CC4991448BB1600E29463 /* Sources */,
+				502CC49A1448BB1600E29463 /* Frameworks */,
+				502CC49B1448BB1600E29463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloxorsLevelEditor;
+			productName = BloxorsLevelEditor;
+			productReference = 502CC49D1448BB1600E29463 /* BloxorsLevelEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		502CC4941448BB1600E29463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Alliance Health";
+			};
+			buildConfigurationList = 502CC4971448BB1600E29463 /* Build configuration list for PBXProject "BloxorsLevelEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 502CC4921448BB1600E29463;
+			productRefGroup = 502CC49E1448BB1600E29463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				502CC49C1448BB1600E29463 /* BloxorsLevelEditor */,
+				502CC4A51448BB1600E29463 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		502CC49B1448BB1600E29463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502CC4AB1448BB1600E29463 /* InfoPlist.strings in Resources */,
+				502CC4B21448BB1600E29463 /* MainMenu.xib in Resources */,
+				502CC4B51448BB1600E29463 /* rb_main.rb in Resources */,
+				502CC4B71448BB1600E29463 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		502CC4991448BB1600E29463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502CC4AD1448BB1600E29463 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		502CC4A91448BB1600E29463 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502CC4AA1448BB1600E29463 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		502CC4B01448BB1600E29463 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502CC4B11448BB1600E29463 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		502CC4B81448BB1600E29463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		502CC4B91448BB1600E29463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		502CC4BB1448BB1600E29463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BloxorsLevelEditor/BloxorsLevelEditor-Prefix.pch";
+				INFOPLIST_FILE = "BloxorsLevelEditor/BloxorsLevelEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		502CC4BC1448BB1600E29463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BloxorsLevelEditor/BloxorsLevelEditor-Prefix.pch";
+				INFOPLIST_FILE = "BloxorsLevelEditor/BloxorsLevelEditor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		502CC4BE1448BB1600E29463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		502CC4BF1448BB1600E29463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		502CC4971448BB1600E29463 /* Build configuration list for PBXProject "BloxorsLevelEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502CC4B81448BB1600E29463 /* Debug */,
+				502CC4B91448BB1600E29463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502CC4BA1448BB1600E29463 /* Build configuration list for PBXNativeTarget "BloxorsLevelEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502CC4BB1448BB1600E29463 /* Debug */,
+				502CC4BC1448BB1600E29463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		502CC4BD1448BB1600E29463 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502CC4BE1448BB1600E29463 /* Debug */,
+				502CC4BF1448BB1600E29463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 502CC4941448BB1600E29463 /* Project object */;
+}
