@@ -14,19 +14,31 @@
 		502CC4B21448BB1600E29463 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 502CC4B01448BB1600E29463 /* MainMenu.xib */; };
 		502CC4B51448BB1600E29463 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 502CC4B41448BB1600E29463 /* rb_main.rb */; };
 		502CC4B71448BB1600E29463 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 502CC4B61448BB1600E29463 /* AppDelegate.rb */; };
+		502CC4C11448CECD00E29463 /* TileButton.rb in Resources */ = {isa = PBXBuildFile; fileRef = 502CC4C01448CECD00E29463 /* TileButton.rb */; };
+		502CC4C31448E91400E29463 /* ExportButton.rb in Resources */ = {isa = PBXBuildFile; fileRef = 502CC4C21448E91400E29463 /* ExportButton.rb */; };
+		50A5655514490233004B74F0 /* Level.rb in Resources */ = {isa = PBXBuildFile; fileRef = 50A5655414490233004B74F0 /* Level.rb */; };
+		50A56558144907FD004B74F0 /* brick_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A56557144907FD004B74F0 /* brick_tile.png */; };
+		50A5655A144909CD004B74F0 /* space_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A56559144909CD004B74F0 /* space_tile.png */; };
+		50DD711E145B0171003E44B9 /* Tile.rb in Resources */ = {isa = PBXBuildFile; fileRef = 50DD711D145B0171003E44B9 /* Tile.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		502CC49D1448BB1600E29463 /* BloxorsLevelEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloxorsLevelEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		502CC4A11448BB1600E29463 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		502CC4A31448BB1600E29463 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		502CC4A81448BB1600E29463 /* BloxorsLevelEditor-Info.plist */ = {isa = PBXFileReference; path = "BloxorsLevelEditor-Info.plist"; sourceTree = "<group>"; };
+		502CC4A81448BB1600E29463 /* BloxorsLevelEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BloxorsLevelEditor-Info.plist"; sourceTree = "<group>"; };
 		502CC4AA1448BB1600E29463 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		502CC4AC1448BB1600E29463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		502CC4AE1448BB1600E29463 /* BloxorsLevelEditor-Prefix.pch */ = {isa = PBXFileReference; path = "BloxorsLevelEditor-Prefix.pch"; sourceTree = "<group>"; };
+		502CC4AE1448BB1600E29463 /* BloxorsLevelEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BloxorsLevelEditor-Prefix.pch"; sourceTree = "<group>"; };
 		502CC4B11448BB1600E29463 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		502CC4B41448BB1600E29463 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		502CC4B61448BB1600E29463 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		502CC4C01448CECD00E29463 /* TileButton.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TileButton.rb; sourceTree = "<group>"; };
+		502CC4C21448E91400E29463 /* ExportButton.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ExportButton.rb; sourceTree = "<group>"; };
+		50A5655414490233004B74F0 /* Level.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Level.rb; sourceTree = "<group>"; };
+		50A56557144907FD004B74F0 /* brick_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_tile.png; sourceTree = "<group>"; };
+		50A56559144909CD004B74F0 /* space_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space_tile.png; sourceTree = "<group>"; };
+		50DD711D145B0171003E44B9 /* Tile.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Tile.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +83,11 @@
 		502CC4A61448BB1600E29463 /* BloxorsLevelEditor */ = {
 			isa = PBXGroup;
 			children = (
+				50A5655414490233004B74F0 /* Level.rb */,
 				502CC4B61448BB1600E29463 /* AppDelegate.rb */,
+				502CC4C01448CECD00E29463 /* TileButton.rb */,
+				502CC4C21448E91400E29463 /* ExportButton.rb */,
+				50DD711D145B0171003E44B9 /* Tile.rb */,
 				502CC4AF1448BB1600E29463 /* Resources */,
 				502CC4B31448BB1600E29463 /* Other Sources */,
 				502CC4A71448BB1600E29463 /* Supporting Files */,
@@ -93,6 +109,8 @@
 		502CC4AF1448BB1600E29463 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				50A56559144909CD004B74F0 /* space_tile.png */,
+				50A56557144907FD004B74F0 /* brick_tile.png */,
 				502CC4B01448BB1600E29463 /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -178,6 +196,12 @@
 				502CC4B21448BB1600E29463 /* MainMenu.xib in Resources */,
 				502CC4B51448BB1600E29463 /* rb_main.rb in Resources */,
 				502CC4B71448BB1600E29463 /* AppDelegate.rb in Resources */,
+				502CC4C11448CECD00E29463 /* TileButton.rb in Resources */,
+				502CC4C31448E91400E29463 /* ExportButton.rb in Resources */,
+				50A5655514490233004B74F0 /* Level.rb in Resources */,
+				50A56558144907FD004B74F0 /* brick_tile.png in Resources */,
+				50A5655A144909CD004B74F0 /* space_tile.png in Resources */,
+				50DD711E145B0171003E44B9 /* Tile.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +348,7 @@
 				502CC4BC1448BB1600E29463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		502CC4BD1448BB1600E29463 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -332,6 +357,7 @@
 				502CC4BF1448BB1600E29463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
